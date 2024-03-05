@@ -11,7 +11,7 @@ const Home = () => {
                   <p className="font-normal text-5xl text-blue-900 pt-[10px]">I'm from Bihar</p>
                   <p className="text-blue-400 text-xl pt-[10px]">A passionate and enthusiastic web developer who loves coding 
                   and always ready to learn something new.</p>
-                <div className='flex mt-[10px]'>
+                <div className='flex mt-[10px] ml-[-16px]'>
                       <Link to='https://www.linkedin.com/in/manish-kumar-982b4416b/'>
                        <img 
                        className='h-[30px] w-[30px] m-4'
@@ -40,6 +40,10 @@ const Home = () => {
                        alt='link-icon'
                        />
                       </Link>
+                </div>
+                <div className='h-[50px] w-[160px] bg-blue-700 rounded-md mt-[30px]'>
+                    <Link className='font-bold text-4xl text-white pt-[0px] ml-[10px]' 
+                    to='https://drive.google.com/file/d/1_TDGCOtqEtHMgHnDj8LugY_DtLCA2OMQ/view'>Resume</Link>
                 </div>
                 </div>
                 <div className=''>
